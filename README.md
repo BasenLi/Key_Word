@@ -77,11 +77,13 @@
 
 ## STM32
 
- 1)NMI:不可屏蔽中断
+ (1)NMI:不可屏蔽中断
  
- 2)NVIC:嵌套向量中断控制器
+ (2)NVIC:嵌套向量中断控制器
  
-
+ (3)[存储器映射](https://baike.baidu.com/item/存储器映射/9105968)：存储器映射是指把芯片中或芯片外的FLASH，RAM，外设，BOOTBLOCK等进行统一编址。即用地址来表示对象。
+ 
+ (4)[bootblock](https://baike.baidu.com/item/bootblock/2318506?fr=aladdin):主板上的引导块Boot Block,BOOTBLOCK是BIOS中一段特定的区域，包含有用于引导的最小指令集，正常的BIOS升级操作不 能消除这段信息。
 
 ## 金融
 
