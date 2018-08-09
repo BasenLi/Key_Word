@@ -86,10 +86,20 @@
  
  (3)[存储器映射](https://baike.baidu.com/item/存储器映射/9105968)：存储器映射是指把芯片中或芯片外的FLASH，RAM，外设，BOOTBLOCK等进行统一编址。即用地址来表示对象。
  
- (4)[bootblock](https://baike.baidu.com/item/bootblock/2318506?fr=aladdin):主板上的引导块Boot Block,BOOTBLOCK是BIOS中一段特定的区域，包含有用于引导的最小指令集，正常的BIOS升级操作不 能消除这段信息。
+ (4)[bootblock](https://baike.baidu.com/item/bootblock/2318506?fr=aladdin):主板上的引导块Boot Block,BOOTBLOCK是BIOS中一段特定的区域，包含有用于引导的最小指令集，正常的BIOS升级操作不能消除这段信息。
 
 ## 金融
 
-## 生活
+## 哲学
+
+ (1)[修斯底德陷阱](https://baike.baidu.com/item/修昔底德陷阱/7508870?fr=aladdin):“修昔底德陷阱”，是指一个新崛起的大国必然要挑战现存大国，而现存大国也必然会回应这种威胁，这样战争变得不可避免。
+
+ (2)[唯物主义](https://baike.baidu.com/item/唯物主义/270875?fr=aladdin):唯物论，哲学理论，肯定世界的基本组成为物质，物质形式与过程是我们认识世界的主要途径，持着只有事实上的物质才是存在的实体的这一种观点，并且被认为是物理主义的一种形式。
+ 
+ (3)[唯心主义](https://baike.baidu.com/item/唯心主义/188072?fr=aladdin):唯心主义的基本含义，是在思维和存在、精神和物质的关系这个哲学基本问题上，认为精神(意识)第一性，物质第二性，精神决定物质，物质是精神的产物。
+ 
+ (4)[方法论](https://baike.baidu.com/item/方法论/82748?fr=aladdin):方法论是一种以解决问题为目标的理论体系或系统，通常涉及对问题阶段、任务、工具、方法技巧的论述。方法论会对一系列具体的方法进行分析研究、系统总结并最终提出较为一般性的原则。
+ 
+ 
 
 
