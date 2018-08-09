@@ -77,7 +77,12 @@
 
 ## 汇编语言基础
 
+### 基本指令
 ![Loading......](https://github.com/BasenLi/Key_Word/blob/master/src/Photo/%E6%B1%87%E7%BC%96.png?raw=true)
+
+### 寄存器组信息
+![Loading......](https://github.com/BasenLi/Key_Word/blob/master/src/Photo/%E5%AF%84%E5%AD%98%E5%99%A8%E7%BB%84.png?raw=true)
+
 
 ## STM32
 
