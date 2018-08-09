@@ -87,8 +87,16 @@
  (3)[存储器映射](https://baike.baidu.com/item/存储器映射/9105968)：存储器映射是指把芯片中或芯片外的FLASH，RAM，外设，BOOTBLOCK等进行统一编址。即用地址来表示对象。
  
  (4)[bootblock](https://baike.baidu.com/item/bootblock/2318506?fr=aladdin):主板上的引导块Boot Block,BOOTBLOCK是BIOS中一段特定的区域，包含有用于引导的最小指令集，正常的BIOS升级操作不能消除这段信息。
+ 
+ (5)互斥访问：假设有 A、B 两个线程都去调用对象 α 的方法 method1(),并且要求 A、B 两个线程是互斥调用 method1 的。具体来说，假设 method1 中有 4 个命令，一旦 A 调用了 method1，在执行 method1 中有 4 个命令的时候，B 不会调用 method1 方法，反之，依然。
 
 ## 金融
+
+## 文件类
+
+(1)[ini文件](https://baike.baidu.com/item/ini文件/9718973?fr=aladdin):.ini 文件是Initialization File的缩写，即初始化文件，是windows的系统配置文件所采用的存储格式，统管windows的各项配置，一般用户就用windows提供的各项图形化管理界面就可实现相同的配置了。
+
+(2)[DLL文件](https://baike.baidu.com/item/DLL文件/4170556?fr=aladdin):DLL(Dynamic Link Library)文件为动态链接库文件，又称“应用程序拓展”，是软件文件类型。
 
 ## 哲学
 
