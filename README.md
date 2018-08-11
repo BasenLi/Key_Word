@@ -108,9 +108,12 @@
  (11)Cortex_M3的寄存器组：
 ![Loading......](https://github.com/BasenLi/Key_Word/blob/master/src/Photo/%E5%AF%84%E5%AD%98%E5%99%A8%E7%BB%84.png?raw=true)
 
-> R0~R12 为通用寄存器组，需要注意的是，对于大多数16位的Thumb指令只能访问R0~R7，而32位的Thumb-2则可以访问所有寄存器。
+> R0-R12 为通用寄存器组，需要注意的是，对于大多数16位的Thumb指令只能访问R0-R7，而32位的Thumb-2则可以访问所有寄存器。
+
 > R13 用于存放堆栈指针地址，是一个影子寄存器，同一时刻，只能是主堆栈指针（MSP）和进程堆栈指针（PSP）两个中的一个。
+
 > R14 是连接寄存器，用于呼叫一个子程序时，存放返回地址。
+
 > R15 是程序计数寄存器，用于指向当前的程序地址。如果修改它的值，可以改变程序的执行流程（高级技巧）。
 
 ![Loading......](https://github.com/BasenLi/Key_Word/blob/master/src/Photo/%E7%89%B9%E6%AE%8A%E5%AF%84%E5%AD%98%E5%99%A8.png?raw=true)
