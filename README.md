@@ -82,9 +82,6 @@
 ### 基本指令
 ![Loading......](https://github.com/BasenLi/Key_Word/blob/master/src/Photo/%E6%B1%87%E7%BC%96.png?raw=true)
 
-### 寄存器组信息
-![Loading......](https://github.com/BasenLi/Key_Word/blob/master/src/Photo/%E5%AF%84%E5%AD%98%E5%99%A8%E7%BB%84.png?raw=true)
-
 
 ## STM32
 
@@ -97,6 +94,29 @@
  (4)[bootblock](https://baike.baidu.com/item/bootblock/2318506?fr=aladdin):主板上的引导块Boot Block,BOOTBLOCK是BIOS中一段特定的区域，包含有用于引导的最小指令集，正常的BIOS升级操作不能消除这段信息。
  
  (5)互斥访问：假设有 A、B 两个线程都去调用对象 α 的方法 method1(),并且要求 A、B 两个线程是互斥调用 method1 的。具体来说，假设 method1 中有 4 个命令，一旦 A 调用了 method1，在执行 method1 中有 4 个命令的时候，B 不会调用 method1 方法，反之，依然。
+ 
+ (6)ARM的指令集：32位的ARM指令集、16位的Thumb指令集（是ARM指令集的一个子集，能有效提高代码密度）、16位于32位并存的Thumb-2指令集（是Thumb的一个超集）。
+ 
+ (7)MPU:存储保护单元。
+ 
+ (8) [哈佛结构](https://baike.baidu.com/item/哈佛结构/6688287#2)：哈佛结构是一种将程序指令存储和数据存储分开的存储器结构。
+ 
+ (9) [冯诺依曼结构](https://baike.baidu.com/item/冯·诺依曼结构):冯·诺依曼结构也称普林斯顿结构，是一种将程序指令存储器和数据存储器合并在一起的存储器结构。
+ 
+ (10)[影子寄存器](https://baike.baidu.com/item/影子寄存器/6435933?fr=aladdin)：在不同的模式下，同样的几个比特位指向不同的物理寄存器，这些不同的物理寄存器就被称之为影子寄存器。
+ 
+ (11)Cortex_M3的寄存器组：
+![Loading......](https://github.com/BasenLi/Key_Word/blob/master/src/Photo/%E5%AF%84%E5%AD%98%E5%99%A8%E7%BB%84.png?raw=true)
+
+> R0~R12 为通用寄存器组，需要注意的是，对于大多数16位的Thumb指令只能访问R0~R7，而32位的Thumb-2则可以访问所有寄存器。
+> R13 用于存放堆栈指针地址，是一个影子寄存器，同一时刻，只能是主堆栈指针（MSP）和进程堆栈指针（PSP）两个中的一个。
+> R14 是连接寄存器，用于呼叫一个子程序时，存放返回地址。
+> R15 是程序计数寄存器，用于指向当前的程序地址。如果修改它的值，可以改变程序的执行流程（高级技巧）。
+
+(12)ALU(arithmetic and logic unit):算术逻辑单元。
+
+ 
+ 
 
 ## 金融
 
