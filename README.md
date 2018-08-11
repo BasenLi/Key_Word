@@ -113,6 +113,12 @@
 > R14 是连接寄存器，用于呼叫一个子程序时，存放返回地址。
 > R15 是程序计数寄存器，用于指向当前的程序地址。如果修改它的值，可以改变程序的执行流程（高级技巧）。
 
+![Loading......](https://github.com/BasenLi/Key_Word/blob/master/src/Photo/%E7%89%B9%E6%AE%8A%E5%AF%84%E5%AD%98%E5%99%A8.png?raw=true)
+
+![Loading......](https://github.com/BasenLi/Key_Word/blob/master/src/Photo/%E7%89%B9%E6%AE%8A%E5%AF%84%E5%AD%98%E5%99%A8%E8%AF%B4%E6%98%8E.png?raw=true)
+
+
+
 (12)ALU(arithmetic and logic unit):算术逻辑单元。
 
  
